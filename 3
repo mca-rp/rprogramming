@@ -1,0 +1,20 @@
+setwd("E:\\sample") 
+getwd()
+sample=read.csv("k1.csv") 
+data <- read.csv("k1.csv") 
+head(sample)
+sal<-max(data$salary) 
+print(sal)
+salaries<-(data$salary) 
+salaries
+names<-(data$name) 
+names 
+summary(data$salary)
+salarybar<-c(names,salaries, byrow=FALSE) 
+barplot(data$salary,main="SALARY",ylab='salary',
+xlab ="name", col="blue", 
+horiz=FALSE,beside=TRUE)
+hist(data$salary) 
+colnames<-c(data$name) 
+colnames
+rowname<-c(data$sa)
