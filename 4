@@ -1,0 +1,8 @@
+df<-data.frame("Serial_number"=1:5,"Age"=c(20,21,17,23,19),"Name"=c("raja","ramu", "ravi", 
+"raghu", "rajesh"))
+# Sort by age ascending order 
+newdataAsc<-df[order(df$Age),] 
+newdataAsc
+# sorting is descending order 
+newdataDsc<-df[order(-df$Age),] 
+newdataDsc
